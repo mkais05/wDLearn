@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+
+    <p> &#x2750;CSS&#x2750;</p>
+
+
+    <div class="random">
+        <div> &#x2750;wD Learn </a></div>
+        <div class="bar">
+            <ul>
+                <li><a href="page2.html"> HOME </a></li>
+                <li> <a href="contact.html"> CONTACT </a></li>
+               
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+
+        <div class="box">
+            <h4> <a href="css.html"> CSS </a></h4>
+
+            <h4> <a href="cssintro.html"> CSS Introduction</a></h4>
+
+            <h4><a href="cssselector.html"> CSS Selectors </a></h4>
+
+            <h4> <a href="csscolor.html">CSS Color </a></h4>
+
+            <h4> <a href="cssbg.html">CSS Background </h4>
+
+            <h4><a href="cssborder.html"> CSS Border</a></h4>
+            <h4> <a href="cssmargin.html"> CSS Margin </a></h4>
+            <h4> <a href="csspadding.html"> CSS Padding</a></h4>
+            <h4> <a href="cssboxmodel.html"> CSS Box Model </a></h4>
+            <h4> <a href="cssfont.html">CSS Text </a></h4>
+            <h4><a href="cssfont.html"> CSS Font </a> </h4>
+            <h4> <a href="csslink.html"> CSS Link </a></h4>
+            <h4><a href="csslist.html"> CSS List </a></h4>
+            <h4> <a href="cssoverflow.html"> CSS Overflow </a></h4>
+            <h4 > <a href="cssdisplay.html"> CSS Display</a></h4>
+            <h4 > <a href="csscombinator.html"> CSS Combinators</a></h4>
+            <h4> <a href="csspsedu.html">  CSS Pseudo-classes </a>  </h4>
+            <h4> <a href="cssnav.html"> CSS Navigation Bar  </a></h4>
+            <h4> <a href="csshover.html"> CSS Hover </a></h4>
+            <h4> <a href="csszindex.html"> CSS Z-index </a></h4>
+            <h4> <a href="cssmedia.html"> CSS Media Queries </a> </h4>
+            <h4> <a href="cssshadow.html"> CSS Shadow </a></h4>
+            <h4> <a href="css2d.html"> CSS 2D Transform </a></h4>
+            <h4   class="green">CSS Animations</h4>
+            <h4> <a href="cssbutton.html"> CSS Button </a></h4>
+             <h4><a href="cssfelxbox.html"> CSS FlexBox </a></h4>
+            <h4><a href="cssgrid.html"> CSS Grid </a></h4>
+            <h4><a href="csspagination.html"> CSS Pagination</a></h4>
+        </div>
+
+
+
+
+        <div class="box2">
+            <span class="head">CSS Animations</span>
+            <dev class="dev">CSS Animations help to animate elements from one frame to another. 
+                <br><br></dev>
+
+            <dev class="dev">Controlling various CSS properties helps in changing the animation style and time without having the need to use JavaScript for the same.<br><br></dev>
+
+            <dev class="dev">The most basic way to do so is by using “from” and “to”.<br><br></dev>
+
+
+                
+
+
+            <div class="box3">
+
+                <h3>Example</h3>
+
+                <h5 class="mini">
+                    <br><br>
+@keyframes demo {<br>
+    from {<br>
+        background-color: red;<br>
+    }<br>
+    to {<br>
+        background-color: blue;<br>
+    }<br>
+}
+            </div>
+
+
+
+            <span class="head">1. Animation Name</span>
+
+            <dev class="dev">To identify the animation we assign it with the name. In the above example the name was demo.<br><br> </dev>
+            <dev class="dev"> So, we will add the attribute animation name in the div element.<br><br></dev>
+
+
+
+
+            <div class="box3">
+
+                <h3>Syntax</h3>
+
+                <h5 class="mini">
+                    <br><br>
+Syntax:<br>  div { animation-name: demo; }<br>
+            </div>
+
+
+            
+
+
+
+            
+            <span class="head">2. Key Frames</span>
+
+            <dev class="dev">Keyframes define at what % of the animation, which stylesheet rules should be used. The value of keyframes varies from 0% to 100%. <br><br> </dev>
+            <dev class="dev">To add keyframes use the % operator with the value inside the keyframes. More keyframes mean smoother animation. <br><br></dev>
+
+<sapn class="head">Example</sapn>
+
+<img src="Animation.png" height="250px">
+
+
+
+
+
+
+            
+            <span class="head">3. Looping Animations</span>
+
+            <dev class="dev">By default, the animation runs only one time on the website <br><br> </dev>
+            <dev class="dev">But you can choose to loop the animation by using the “animation-iteration-count” property.<br><br></dev>
+
+
+
+
+            <div class="box3">
+
+                <h3>Syntax</h3>
+
+                <h5 class="mini">
+                    <br><br>
+Syntax: <br>{ animation-iteration-count: value; }
+            </div>
+            
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <span class="head">4. Animation Durations</span>
+
+            <dev class="dev">It is the key property to start the animations.By default, the animation duration is 0 sec, which means the animation won’t start.<br><br> </dev>
+            <dev class="dev">So, to start the animation we will assign the value to the animation duration.<br><br></dev>
+
+
+
+
+            <div class="box3">
+
+                <h3>Syntax</h3>
+
+                <h5 class="mini">
+                    <br><br>
+Syntax: <br>animation-duration: value(in sec);
+            </div>
+            
+
+
+
+
+
+
+
+  <span class="head">5. Other Properties</span>
+            <h3 style="padding-left: 30px;">Animation Delay</h3>
+               <dev class="dev">Delays the start of animation on the website. <br><br> </dev>
+             <dev class="dev">Adding a negative value to delay will make the animation run even before the website is loaded.<br><br></dev>
+
+
+
+
+            <div class="box3">
+
+                <h3>Example</h3>
+
+                <h5 class="mini">
+                    <br><br>
+{ animation-delay: -2s; }
+            </div>
+            
+
+
+
+
+
+
+
+
+            <h3 style="padding-left: 30px;">Animation Direction</h3>
+               <dev class="dev">This property defines the order of the animation. <br><br> </dev>
+             <dev class="dev">Whether it should be played forward, reverse, or alternatively. The values it takes are:<br><br></dev>
+
+            <ul>
+                <li><strong>normal</strong>: the default state of forward animation.</li>
+                <li><strong>reverse</strong>:  plays the animation in the reverse direction.</li>
+                <li><strong>alternate</strong>:  forward animation and then backward.</li>
+                <li><strong>alternate-reverse</strong>:  reverse animation and then forward.</li>
+            </ul>
+
+
+            <div class="box3">
+
+                <h3>Syntax</h3>
+
+                <h5 class="mini">
+                    <br><br> { animation-direction: value; }
+            </div>
+            
+
+
+
+
+
+
+
+
+
+
+            <h3 style="padding-left: 30px;">Animation Direction</h3>
+               <dev class="dev">This property defines the order of the animation. <br><br> </dev>
+             <dev class="dev">Whether it should be played forward, reverse, or alternatively. The values it takes are:<br><br></dev>
+
+            <ul>
+                <li><strong>normal</strong>: the default state of forward animation.</li>
+                <li><strong>reverse</strong>:  plays the animation in the reverse direction.</li>
+                <li><strong>alternate</strong>:  forward animation and then backward.</li>
+                <li><strong>alternate-reverse</strong>:  reverse animation and then forward.</li>
+            </ul>
+
+
+            <div class="box3">
+
+                <h3>Syntax</h3>
+
+                <h5 class="mini">
+                    <br><br> { animation-direction: value; }
+            </div>
+            
+
+
+
+            <h3 style="padding-left: 30px;">Animation Timing Function</h3>
+               <dev class="dev">It defines the speed curve for the animation. <br><br> </dev>
+             <dev class="dev"> This property adds ease to our animation and can have the following values: ease, linear, ease-in, ease-out, and ease-in-out.<br><br></dev>
+
+  
+
+            <div class="box3">
+
+                <h3>Syntax</h3>
+
+                <h5 class="mini">
+                    <br><br>  animation-timing-function: value;
+            </div>
+            
+
+
+
+
+
+
+
+
+
+            
+            <h3 style="padding-left: 30px;">Animation Fill Mode</h3>
+               <dev class="dev">This property defines the style of the element when the animation is either stopped or about to start.  <br><br> </dev>
+             <dev class="dev"> The value it takes is none (default state), forwards (value set by the last keyframe), backwards (value of the first keyframe), or both.<br><br></dev>
+
+  
+
+            <div class="box3">
+
+                <h3>Syntax</h3>
+
+                <h5 class="mini">
+                    <br><br>  animation-fill-mode: value;
+            </div>
+            
+
+
+
+
+                </div>
+
+    </div>
+
+
+</body>
+
+
+
+
+</html>

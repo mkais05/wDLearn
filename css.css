@@ -1,0 +1,244 @@
+/* Default CSS (for laptops and desktops) */
+
+p {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #c1ffd8;
+    border-bottom: 4px solid #0cd161;
+    box-shadow: 0px 4px 10px rgba(30, 217, 93, 0.1);
+    padding: 30px;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color: #2a2a2a;
+    padding-left: 450px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223, 243, 226);
+}
+
+.content {
+    display: flex;
+}
+
+.box {
+    border: 1px solid rgb(3, 253, 90);
+    width: 150px;
+    height: 350px;
+    overflow: auto;
+    
+}
+
+.green {
+    border: 1px solid rgb(72, 247, 72);
+    background-color: #38d37b;
+}
+
+.box2 {
+   
+    width: 950px;
+    height: 350px;
+    margin-left: 10px;
+    overflow: auto;
+    border-top: #dfffea;
+  border-left: #0cd161;
+  overflow: auto;
+}
+
+.head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.box3 {
+    border: 1px solid rgb(169, 160, 160);
+    width: 930px;
+    height: 200px;
+    background-color: rgb(197, 231, 201);
+    margin: 20px;
+    margin-left: 10px;
+    overflow: auto;
+    border-radius: 20px;
+}
+
+.box3 > h5 {
+    padding-left: 50px;
+    font-family: Consolas, monospace;
+}
+
+.mini {
+    border: 1px solid black;
+    width: 800px;
+    height: 100px;
+    margin-left: 50px;
+    overflow: auto;
+    border-radius: 20px;
+    background-color: rgb(235, 233, 230);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+div > ul {
+    font-size: medium;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dev {
+    margin-left: 40px;
+    font-size: medium;
+}
+
+a:hover {
+    background-color: #27ae60;
+    color: white;
+    position: relative;
+}
+
+.random {
+    display: flex;
+    height: 1px;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #b6f7b0, #d7fcd7);
+    padding: 20px 40px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: #064d2c;
+    letter-spacing: 2px;
+}
+
+.bar ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin-left: 250px;
+    margin-top: 50px;
+    width: 400px;
+}
+
+.box2 a:hover{
+color: green;
+}
+/* ============ MEDIA QUERY FOR TABLET (501px - 1024px) ============ */
+@media (min-width: 501px) and (max-width: 1024px) {
+    p {
+        padding: 10px;
+        font-size: 2rem;
+        padding-left: 0;
+        text-align: center;
+        color: #0a6242;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .box {
+        width: 650px;
+        height: 40px;
+        font-size: x-small;
+        display: flex;
+        gap: 40px;
+        position: sticky;
+    }
+    .green {
+        height: 30px;
+    }
+    .box2 {
+        width: 650px;
+        height: 700px;
+        font-size: xx-small;
+    }
+    .box3 {
+        width: 450px;
+        height: 180px;
+        font-size: small;
+        margin-left: 50px;
+    }
+    .mini {
+        width: 400px;
+        height: 100px;
+    }
+    table, th, td {
+        margin-left: 80px;
+        width: 300px;
+    }
+    .random{
+      font-size: small;
+    }
+}
+
+
+/* ============ MEDIA QUERY FOR PHONE (max-width: 500px) ============ */
+@media (max-width: 500px) {
+    p {
+        padding: 10px;
+        font-size: 1.5rem;
+        padding-left: 0;
+        text-align: center;
+        color: #0a6242;
+        width: 370px;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .box {
+        width: 380px;
+        height: 60px;
+        font-size: x-small;
+        display: flex;
+        gap: 40px;
+        position: sticky;
+    }
+    .green {
+        height: 30px;
+    }
+    .box2 {
+        width: 370px;
+        height: 700px;
+        font-size: xx-small;
+    }
+    .box3 {
+        width: 310px;
+        height: 180px;
+        font-size: small;
+        margin-left: 20px;
+    }
+    .mini {
+        width: 200px;
+        height: 100px;
+    }
+    table, th, td {
+        margin-left: 30px;
+        width: 250px;
+    }
+.bar ul{
+  font-size: xx-small;
+  padding-left: 50px;
+}    
+.random{
+  padding-left: 2px;
+  width: 340px;
+
+}
+}
+
+
+

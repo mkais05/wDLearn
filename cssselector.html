@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html</title>
+<link rel="stylesheet" href="css.css">
+<style>
+
+</style>
+</head>
+<body>
+  
+
+    <p> &#x2750;CSS&#x2750;</p>
+
+     
+     <div class="random">
+      <div>  &#x2750;wD Learn </a></div>
+<div class="bar">  
+  <ul>
+  <li><a href="page2.html"> HOME </a></li>
+ <li> <a href="contact.html">  CONTACT </a></li>
+
+</ul>
+</div>
+</div>
+   <div class="content">
+
+<div class="box">
+  <h4> <a href="css.html"> CSS  </a></h4>
+
+  <h4> <a href="cssintro.html"> CSS Introduction</a></h4>
+
+  <h4 class="green"> CSS Selectors </h4>
+  
+  <h4><a href="csscolor.html">  CSS Color </a></h4>
+
+  <h4> <a href="cssbg.html">CSS Background </h4>
+
+            <h4><a href="cssborder.html"> CSS Border</a></h4>
+            <h4> <a href="cssmargin.html"> CSS Margin </a></h4>
+            <h4> <a href="csspadding.html"> CSS Padding</a></h4>
+            <h4> <a href="cssboxmodel.html"> CSS Box Model </a></h4>
+            <h4> <a href="cssfont.html">CSS Text </a></h4>
+            <h4><a href="cssfont.html"> CSS Font </a> </h4>
+            <h4> <a href="csslink.html"> CSS Link </a></h4>
+            <h4><a href="csslist.html"> CSS List </a></h4>
+            <h4> <a href="cssoverflow.html"> CSS Overflow </a></h4>
+            <h4 > <a href="cssdisplay.html"> CSS Display</a></h4>
+            <h4 > <a href="csscombinator.html"> CSS Combinators</a></h4>
+            <h4> <a href="csspsedu.html">  CSS Pseudo-classes </a>  </h4>
+            <h4> <a href="cssnav.html"> CSS Navigation Bar  </a></h4>
+            <h4> <a href="csshover.html"> CSS Hover </a></h4>
+            <h4> <a href="csszindex.html"> CSS Z-index </a></h4>
+            <h4> <a href="cssmedia.html"> CSS Media Queries </a> </h4>
+            <h4><a href="cssshadow.html"> CSS Shadow </a></h4>
+            <h4> <a href="css2d.html">  CSS 2D Transform </a></h4>
+            <h4><a href="css3d.html"> CSS Animations</a></h4>
+            <h4><a href="cssbutton.html"> CSS Button </a></h4>
+            <h4><a href="cssfelxbox.html"> CSS FlexBox </a></h4>
+            <h4><a href="cssgrid.html"> CSS Grid </a></h4>
+            <h4><a href="csspagination.html"> CSS Pagination</a></h4>
+
+</div>
+
+
+
+
+<div class="box2">
+  <span class="head">CSS Selectors</span>
+<dev class="dev">CSS selectors allow us to choose specific elements and apply styles to them. <br><br></dev>
+<dev class="dev">Suppose we want to add a custom style to only a specific tag(s). There, we can make use of CSS selectors.<br><br></dev>
+<dev class="dev">There are different types of CSS selectors, which are as follows:<br></dev>
+<ul>
+    <a href="#universal"> <li>Universal Selector</li></a>
+ <a href="#element">   <li>Element Selector</li></a>
+   <a href="#id"> <li>Id Selector</li></a>
+   <a href="#class"> <li>Class Selector</li></a>
+   <a href="#group"> <li>Group Selector</li></a>
+</ul>
+<span class="head" id="universal">
+Universal Selector
+</span>
+
+<dev class="dev">Universal selector represented by * targets all the HTML elements on the page.<br><br></dev>
+
+
+
+<div class="box3">  
+
+  <h3>Syntax  </h3>
+
+  <h5 class="mini">
+   
+    <br>
+* {<br><br>
+    property: value;<br><br>
+}<br>
+  </h5>
+
+</div>
+
+
+
+
+
+<div class="box3">  
+
+  <h3>Example</h3>
+
+  <h5 class="mini">
+   
+    <br>
+&lt;head&gt;<br>
+    &lt;style&gt;<br>
+        * {<br></br>
+            color: purple;<br>
+            text-align: center;<br><br>
+        }<br>
+    &lt;/style&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+    &lt;p&gt;Welcome to &lt;/p&gt;<br>
+    &lt;h1&gt;CodeWithHarry&lt;/h1&gt;<br>
+&lt;/body&gt;<br>
+  </h5>
+
+</div>
+
+<span class="head" id="element">
+Element Selector 
+</span>
+
+
+<dev class="dev">The element selector selects the target element based on the specific type.<br><br></dev>
+
+
+
+<dev class="dev">Suppose you want to underline all the &lt;p&gt tags; in this case, the element selector will be the best choice.<br><br></dev>
+
+
+<dev class="dev">The syntax of Element Selector is as follows:<br></dev>
+
+<div class="box3">  
+
+  <h3>Syntax </h3>
+
+  <h5 class="mini">
+   
+    <br>
+p {<br><br>
+    property: value;<br><br>
+}
+  </h5>
+
+</div>
+
+
+
+<div class="box3">  
+
+  <h3>Example</h3>
+
+  <h5 class="mini">
+   
+    <br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+    &lt;title&gt;CSS&lt;/title&gt;<br>
+    &lt;style&gt;<br>
+        p {<br>
+            text-decoration: underline;<br>
+        }<br>
+    &lt;/style&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+    &lt;h1&gt;Code&lt;/h1&gt;<br>
+    &lt;h2&gt;we offer: &lt;/h2&gt;<br>
+    &lt;p&gt;web Tutorials &lt;/p&gt;<br>
+    &lt;p&gt;Ultimate html Course&lt;/p&gt;<br>
+        &lt;p&gt;html css Tutorials For Beginners&lt;/p&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;<br>
+  </h5>
+
+</div>
+
+
+
+
+
+<span class="head" id="id"> 
+ID Selector</span>
+
+
+<dev class="dev">The ID selector targets the elements based on the specific ID.<br><br></dev>
+
+
+
+<dev class="dev">  It is written with the hash # character followed by the ID name in the style sheet.<br><br></dev>
+
+
+<dev class="dev">The syntax of ID Selector is as follows:<br><br></dev>
+
+
+<div class="box3">  
+
+  <h3>Syntax </h3>
+
+  <h5 class="mini">
+   
+    <br>
+#ID {<br><br>
+    property: value;<br><br>
+}
+ 
+
+  </h5>
+
+</div>
+
+
+
+
+<div class="box3">  
+
+  <h3>Example </h3>
+
+  <h5 class="mini">
+   
+    <br>
+&lt;html&gt; <br>    
+&lt;head&gt; <br>
+    &lt;style&gt; <br>
+        #title { <br> <br>
+            text-align: center; <br>
+            color: red; <br> <br>
+        } <br>
+    &lt;/style&gt; <br>
+&lt;/head&gt; <br>
+&lt;body&gt; <br>
+    &lt;h1 id="title"&gt;Code&lt;/h1&gt; <br>
+    &lt;p&gt;I'm a Developer&lt;/p&gt; <br>
+&lt;/body&gt; <br>
+&lt;/html&gt; <br>
+
+  </h5>
+
+</div>
+
+
+
+
+
+
+<span class="head" id="class">
+Class Selector</span>
+
+
+<dev class="dev">The class selector does the same job as the id selector, a class selector helps group various types of elements. <br><br></dev>
+
+
+
+<dev class="dev">   Suppose, we want to give a custom style to a specific group of elements. In this case, the class selector is the best option.<br><br></dev>
+
+
+<dev class="dev">It is written with the period . character followed by the class name in the style sheet.<br><br></dev>
+
+
+<div class="box3">  
+
+  <h3>Syntax </h3>
+
+  <h5 class="mini">
+   
+    <br>
+.class {<br><br>
+    property: value;<br><br>
+}
+ 
+
+  </h5>
+
+</div>
+
+
+
+
+<div class="box3">  
+
+  <h3>Example </h3>
+
+  <h5 class="mini">
+   
+    <br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+    &lt;title&gt;CSS&lt;/title&gt;<br>
+    &lt;style&gt;<br>
+        .red {<br><br>
+            color: red;<br><br>
+        }<br>
+    &lt;/style&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+    &lt;p&gt;This is simple p tag&lt;/p&gt;<br>
+    &lt;p class="red"&gt;This p tag has class red&lt;/p&gt;<br>
+    &lt;p&gt;This is simple p tag&lt;/p&gt;<br>
+    &lt;p class="red"&gt;This p tag has class red&lt;/p&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;<br>
+
+  </h5>
+
+</div>
+
+
+<span class="head" id="group">
+Group Selector</span>
+
+
+<dev class="dev">The group selector is used to minimize the code. Commas , are used to separate each selector in a grouping.<br><br></dev>
+
+
+
+<dev class="dev"> This reduces the number of lines of code. The code also looks clean.<br><br></dev>
+
+
+<dev class="dev">The syntax of Group Selector is as follows:<br><br></dev>
+
+
+<div class="box3">  
+
+  <h3>Syntax </h3>
+
+  <h5 class="mini">
+   
+    <br>
+div, p, a {<br> <br>
+    property: value;<br><br>
+}
+ 
+
+  </h5>
+
+</div>
+
+
+
+
+<div class="box3">  
+
+  <h3>Example </h3>
+
+  <h5 class="mini">
+   
+    <br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+    &lt;title&gt;CSS&lt;/title&gt;<br>
+    &lt;style&gt;<br>
+        h1 {<br><br>
+            color: red;<br><br>
+        }<br>
+        p, a {<br><br>
+            color: purple;<br><br>
+        }<br>
+    &lt;/style&gt;<br>
+&lt;/head&gt;<br>
+&lt;body&gt;<br>
+    &lt;h1&gt;CodeW&lt;/h1&gt;<br>
+    &lt;p&gt;This is the p tag&lt;/p&gt;<br>
+    &lt;a href="#"&gt;This is the anchor (a) tag&lt;/a&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;<br>
+
+  </h5>
+
+</div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+   </div>
+
+
+</body>
+</html>
